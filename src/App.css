@@ -1,0 +1,66 @@
+body {
+  animation: firstload 1s ease-in-out;
+}
+
+@media (min-width:1301px) and (max-width: 1521px) {
+    .gridcardshome {
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+    }
+  }
+  @media (min-width: 1023px) and (max-width: 1300px) {
+    .gridcardshome {
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+  }
+@keyframes firstload {
+  0% {
+    opacity: 0%;
+    transform: translateY(-3%);
+  }
+  50% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+    transform: translateY(0);
+  }
+}
+
+@keyframes loadlogintela {
+  0% {
+   
+    transform: translateX(-5%);
+    opacity:25%;
+  }
+  50% {
+  }
+  100% {
+    transform: translateX(0);
+    opacity:100%;
+  }
+
+}
+
+@keyframes loadregistrotela {
+  0%{
+    transform: translateX(5%);
+    opacity:25%;
+
+  }
+  100%{
+    transform:translateX(0);
+    opacity:100%;
+  }
+}
+
+.logintela {
+  animation: loadregistrotela 0.3s ;
+
+}
+.registrotela {
+  animation: loadlogintela 0.3s ;
+}
+
+input:focus {
+  outline: gray solid 1px;
+}

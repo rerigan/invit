@@ -1,0 +1,24 @@
+.navlinks {
+    font-weight:bold;
+    padding:10px;
+    border-radius:5px;
+    transition: all 0.3s;
+}
+
+.navlinks:hover {
+  background-color:rgba(0, 0, 0, 0.1)    
+}
+
+.navicons {
+    border-radius:100%;
+    padding:10px;
+    transition: all 0.3s;
+}
+.navicons:hover {
+    border-radius:100%;
+    background-color:rgba(0, 0, 0, 0.1);
+    
+}
+
+
+
