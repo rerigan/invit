@@ -2,7 +2,7 @@
 <!-- <a href"http://londrijob.vercel.app/"><img src="/londrijob.png"></a> -->
 </p>
 
-<h2 align="center"><a href="https://invit-eosin.vercel.app/">InVit!</a></h2>
+<h2 align="center"><a href="https://invit-eosin.vercel.app/" target="_blank">InVit!</a></h2>
 
 <p>Esse site fez parte do estágio que eu estava empenhando. Os dados foram refatorados para dados fictícios para não revelar a empresa original ou seu modelo de negócio. Todos os dados são fictícios, o site atualmente serve somente para display do trabalho que eu fiz no período. Desenvolvi a parte do frontend e comecei a aprender um pouco mais sobre a questão de backend fazendo fetch dos dados mostrados na página simulando uma API.</p>
 
